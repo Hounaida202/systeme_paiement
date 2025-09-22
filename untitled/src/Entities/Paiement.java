@@ -12,7 +12,6 @@ public class Paiement {
         PAYE, NONPAYE, RETARD
     }
 
-    // ---------- Constructeur ----------
     public Paiement(String idPaiement,
                     String idAbonnement,
                     String dateEcheance,
@@ -27,7 +26,6 @@ public class Paiement {
         this.statut = statut;
     }
 
-    // ---------- Getters et Setters ----------
     public String getIdPaiement() {
         return idPaiement;
     }

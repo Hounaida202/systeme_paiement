@@ -15,7 +15,6 @@ public class AbonnementAvecEngagement extends Abonnement {
         this.dureeEngagementMois = dureeEngagementMois;
     }
 
-    // ---------- Getters et Setters ----------
 
     public String getDureeEngagementMois() {
         return dureeEngagementMois;

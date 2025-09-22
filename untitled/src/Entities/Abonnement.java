@@ -27,7 +27,6 @@ public abstract class Abonnement {
         this.statut = statut;
     }
 
-    // ---------- Getters et Setters ----------
 
     public String getIdAbonnement() {
         return idAbonnement;
