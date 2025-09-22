@@ -1,4 +1,4 @@
 package Entities;
 
-public class AbonnementSansEngagement {
+public class AbonnementSansEngagement extends Abonnement{
 }
