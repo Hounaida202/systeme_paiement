@@ -1,3 +1,4 @@
+
 package Entities;
 
 public class AbonnementSansEngagement extends Abonnement{
@@ -6,9 +7,10 @@ public class AbonnementSansEngagement extends Abonnement{
                                     double montantMensuel,
                                     String dateDebut,
                                     String dateFin,
-                                    Statut statut
-                                    ) {
+                                    String typeAbonnement
 
-        super(idAbonnement, nomService, montantMensuel, dateDebut, dateFin, statut);
+    ) {
+
+        super(idAbonnement, nomService, montantMensuel, dateDebut, dateFin, typeAbonnement);
     }
 }

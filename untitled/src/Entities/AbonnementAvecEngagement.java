@@ -1,26 +1,24 @@
+
 package Entities;
 
 public class AbonnementAvecEngagement extends Abonnement {
-    private String dureeEngagementMois;
+    private int dureeEngagementMois;
 
     public AbonnementAvecEngagement(String idAbonnement,
                                     String nomService,
                                     double montantMensuel,
                                     String dateDebut,
                                     String dateFin,
-                                    Statut statut,
-                                    String dureeEngagementMois) {
-
-        super(idAbonnement, nomService, montantMensuel, dateDebut, dateFin, statut);
+                                    String typeAbonnement,
+                                    int dureeEngagementMois) {
+        super(idAbonnement, nomService, montantMensuel, dateDebut, dateFin, typeAbonnement);
         this.dureeEngagementMois = dureeEngagementMois;
     }
-
-
-    public String getDureeEngagementMois() {
+    public int getDureeEngagementMois() {
         return dureeEngagementMois;
     }
-
-    public void setDureeEngagementMois(String dureeEngagementMois) {
+    public void setDureeEngagementMois(int dureeEngagementMois) {
         this.dureeEngagementMois = dureeEngagementMois;
     }
 }
+

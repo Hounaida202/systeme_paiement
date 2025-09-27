@@ -6,7 +6,7 @@ public class Paiement {
     private String dateEcheance;
     private String datePaiement;
     private String typePaiement;
-    private Statut statut; // utilisation de l'enum
+    private Statut statut;
 
     public enum Statut {
         PAYE, NONPAYE, RETARD
@@ -25,6 +25,8 @@ public class Paiement {
         this.typePaiement = typePaiement;
         this.statut = statut;
     }
+
+
 
     public String getIdPaiement() {
         return idPaiement;
@@ -74,3 +76,4 @@ public class Paiement {
         this.statut = statut;
     }
 }
+
